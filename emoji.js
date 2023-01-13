@@ -30,6 +30,7 @@ function removeElements(favoriteFruits) {
 
     favoriteFruits.shift();
     favoriteFruits.unshift("kiwi");
+    return favoriteFruits
 
 }
 console.log(removeElements(favoriteFruits)); 
